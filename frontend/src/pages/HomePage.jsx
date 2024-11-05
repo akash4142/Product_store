@@ -46,7 +46,7 @@ console.log("products",products)
         <Text fontSize='xl' textAlign={"center"} fontWeight='bold' color='gray.500'>
         No Products Found 
         <Link to={"/create"}>
-          <Text as='span' color='blue.500' _hover={{textDecoration:"underline"}}>
+          <Text as='span' color='blue.500' _hover={{textDecoration:"underline"}} display='block' textAlign='center'>
             Create a product
           </Text>
         </Link>
